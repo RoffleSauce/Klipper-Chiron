@@ -48,19 +48,6 @@ KIAUH (Klipper Installation And Update Helper) is a user-friendly tool for insta
 
 ---
 
-## Configuration Highlights
-
-| Feature                | Section(s)                | Notes                                                            |
-|------------------------|--------------------------|------------------------------------------------------------------|
-| Dual Z Motors          | `[stepper_z]`, `[stepper_z1]`, `[z_tilt]` | Synchronized Z for stable gantry                                  |
-| BLTouch                | `[bltouch]`, `[safe_z_home]`, `[bed_mesh]` | Automated mesh and safe homing                                    |
-| TMC2209 Drivers        | `[tmc2209 ...]`          | UART mode for silent, monitored stepper operation                 |
-| Custom Macros          | `[gcode_macro START_PRINT]`, `[gcode_macro END_PRINT]` | Consistent print start/end routines                               |
-| Bed Leveling Screws    | `[bed_screws]`           | For manual tramming if needed                                     |
-| Virtual SD Card        | `[virtual_sdcard]`       | Enables G-code upload and printing via web interface              |
-
----
-
 ## Source Files
 
 - [`printer.cfg`](printer.cfg) — Complete, annotated Klipper configuration for Anycubic Chiron with SKR 3 EZ and BLTouch.
